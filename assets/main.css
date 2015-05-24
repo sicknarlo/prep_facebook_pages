@@ -134,11 +134,12 @@ table {
   width: 100%;
   background: #2B78E4;
   color: #fff;
+  border-bottom: 2px solid #000;
 }
 
 .facelook-logo {
   float: left;
-  font-size: 40px;
+  font-size: 50px;
   margin-left: 45px;
   line-height: 75px;
 }
@@ -167,4 +168,77 @@ table {
 
 .btn-txt {
   line-height: 30px;
+}
+
+/*
+
+  ============================================
+
+  Main Section
+
+  ============================================
+
+*/
+
+.main-left-title {
+  margin-left: 160px;
+  font-size: 46px;
+}
+
+.main-left {
+  padding-top: 150px;
+}
+
+.main-left ul {
+  font-size: 30px;
+  margin-left: 230px;
+  list-style: disc;
+  margin-top: 50px;
+}
+
+.main-left li {
+  margin-bottom: 30px;
+}
+
+#main-right-title {
+  font-size: 60px;
+  margin-top: 60px;
+}
+
+.sign-up-form {
+  margin-top: 40px;
+  font-size: 25px;
+}
+
+.short-form {
+  width: 45%;
+  height: 32px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.long-form {
+  width: 93%;
+  height: 32px;
+  margin-bottom: 20px;
+}
+
+.birthday-form {
+  margin-top: 20px;
+  margin-right: 20px;
+  height: 32px;
+}
+
+.mf-form {
+  margin-top: 20px;
+}
+
+.sign-up-submit {
+  margin-top: 20px;
+  width: 90%;
+  height: 45px;
+  font-size: 30px;
+  background-color: #239E0F;
+  color: #fff;
+  border: 1px solid #000;
 }
